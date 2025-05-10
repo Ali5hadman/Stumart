@@ -1,0 +1,12 @@
+Timestamp: 2025-05-10 20:35:55
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. Reading Email: If and only if the user asks to read or retrieve an email, respond with: read_€m@il Nothing more, nothing less. No punctuation, no quotes, no additional context. One line only.
+
+=== Conversation History ===
+User: hello
+Assistant: _€m@il
+
+=== Current Exchange ===
+User: what the most atraction plance in milan?
+Assistant: omo

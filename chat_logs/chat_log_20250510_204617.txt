@@ -1,0 +1,28 @@
+Timestamp: 2025-05-10 20:46:18
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says read email, you must say: read_€m@il. otherwise be normal. 
+
+=== Conversation History ===
+User: what time is it?
+Assistant: .
+
+User: hello
+Assistant: morning.
+
+User: what the best place to visit in milan?
+Assistant: eria Vittorio Emanuele II.
+
+User: whats the best place to visit in rome
+Assistant: Colosseum!
+
+User: read my email 
+Assistant: _€m@il
+
+User: how many feet does a human have?
+Assistant: 6.2 inches.
+
+=== Current Exchange ===
+User: who will win the champions leage 2025?
+Assistant: 's a really tough question! Predicting the champions league winner is always difficult. However, based on current form and expert opinions, **Manchester United** is widely considered the favorites to win the 2025 Champions League.

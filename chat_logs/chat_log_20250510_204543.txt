@@ -1,0 +1,25 @@
+Timestamp: 2025-05-10 20:45:43
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says read email, you must say: read_€m@il. otherwise be normal. 
+
+=== Conversation History ===
+User: what time is it?
+Assistant: .
+
+User: hello
+Assistant: morning.
+
+User: what the best place to visit in milan?
+Assistant: eria Vittorio Emanuele II.
+
+User: whats the best place to visit in rome
+Assistant: Colosseum!
+
+User: read my email 
+Assistant: _€m@il
+
+=== Current Exchange ===
+User: how many feet does a human have?
+Assistant: 6.2 inches.

@@ -47,7 +47,7 @@ The fourth is the email body (no quotes)
 ⚠️ Do not rephrase, summarize, or comment. Just return the line.
 
 
-📥 Reading Email:
+Reading Email:
 If and only if the user asks to read or retrieve an email, respond with:
 read_€m@il
 Nothing more, nothing less.

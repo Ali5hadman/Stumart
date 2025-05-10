@@ -3,7 +3,6 @@ import datetime
 from pathlib import Path
 from transformers import AutoTokenizer, BitsAndBytesConfig, Gemma3ForCausalLM
 import torch
-import torch
 
 # variables
 os.environ["HF_HOME"] = "C:\\Users\\gabri\\Desktop\\Gabriele\\Stumart\\transformers_cache"
@@ -104,9 +103,14 @@ def gemma_response(prompt, instruction=None, history=None):
     ).to(model.device)
     
     # Convert only the tensor values to bfloat16 if we're using CUDA
+    # Convert only certain tensor values to bfloat16 if we're using CUDA
+    # Keep input_ids as Long type
     if device == "cuda":
-        inputs = {k: v.to(torch.bfloat16) if torch.is_tensor(v) else v for k, v in inputs.items()}
-    
+        inputs = {
+            k: (v.to(torch.bfloat16) if k != "input_ids" else v)
+            if torch.is_tensor(v) else v
+            for k, v in inputs.items()
+        }
     # Generate response
     with torch.inference_mode():
         outputs = model.generate(

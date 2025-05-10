@@ -2,6 +2,13 @@
 import gradio as gr
 from model import gemma_response
 
+
+
+with open("instructions.txt", "r", encoding="utf-8") as file:
+    instructions_str = file.read()
+
+print(instructions_str)
+
 # Setup the Gradio interface
 with gr.Blocks() as demo:
     # Header section
@@ -28,7 +35,7 @@ with gr.Blocks() as demo:
                 formatted_history.append((history[i], history[i+1]))
         
         # Get response from the model
-        bot_response, _ = gemma_response(message, history=formatted_history)
+        bot_response, _ = gemma_response(message, instruction = instructions_str, history=formatted_history)
         
         # Update internal history
         history.append(message)
