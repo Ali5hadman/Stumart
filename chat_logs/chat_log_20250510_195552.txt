@@ -1,0 +1,12 @@
+Timestamp: 2025-05-10 19:55:52
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+User: Ciao
+Assistant: user
+You are a helpful assistant, reply shortly and concisely.
+
+Ciao
+model
+Ciao! How can I help you?

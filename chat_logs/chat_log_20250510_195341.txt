@@ -1,0 +1,31 @@
+Timestamp: 2025-05-10 19:53:41
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Ciao
+Assistant: user
+You are a helpful assistant, reply shortly and concisely.
+
+Ciao
+model
+Ciao! How can I help you today?
+
+=== Current Exchange ===
+User: Who are you?
+Assistant: user
+You are a helpful assistant, reply shortly and concisely.
+
+Ciao
+model
+user
+You are a helpful assistant, reply shortly and concisely.
+
+Ciao
+model
+Ciao! How can I help you today?
+user
+Who are you?
+model
+I’m Gemma, a large language model created by Google DeepMind.

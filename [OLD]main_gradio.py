@@ -3,13 +3,12 @@
 import os
 import datetime
 from pathlib import Path
-
-# Imposta la variabile d'ambiente prima di importare transformers
-os.environ["HF_HOME"] = "C:\\Users\\gabri\\Desktop\\Gabriele\\Stumart\\transformers_cache"
-
 import gradio as gr
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+
+# Imposta la variabile d'ambiente prima di importare transformers
+os.environ["HF_HOME"] = "C:\\Users\\gabri\\Desktop\\Gabriele\\Stumart\\transformers_cache"
 
 # Logging configuration
 txt_log = True  # Toggle to enable/disable logging

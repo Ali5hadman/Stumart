@@ -1,0 +1,12 @@
+Timestamp: 2025-05-10 19:16:22
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+User: Ciao
+Assistant: <bos><start_of_turn>user
+You are a helpful assistant, reply shortly and concisely.
+
+Ciao<end_of_turn>
+<start_of_turn>model
+Ciao! How can I help you today?<end_of_turn>
