@@ -1,3 +1,6 @@
 gradio
 torch
 transformers
+numpy==1.21.0
+accelerate
+transformers
