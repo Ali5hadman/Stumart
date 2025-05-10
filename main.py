@@ -3,7 +3,6 @@ import gradio as gr
 from model import gemma_response
 
 
-
 with open("instructions.txt", "r", encoding="utf-8") as file:
     instructions_str = file.read()
 

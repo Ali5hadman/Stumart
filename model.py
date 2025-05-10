@@ -6,7 +6,7 @@ import torch
 
 # variables
 os.environ["HF_HOME"] = "C:\\Users\\gabri\\Desktop\\Gabriele\\Stumart\\transformers_cache"
-model_id = "./gemma-3-1b-it"
+model_id = "./gemma-3-4b-it"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 # Only use quantization if CUDA is available
 quantization_config = BitsAndBytesConfig(load_in_8bit=True) if device == "cuda" else None
