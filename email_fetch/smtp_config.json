@@ -1,0 +1,8 @@
+{
+  "smtp": {
+    "host": "imap.gmail.com",
+    "port": 465,
+    "user": "stumart.agent@gmail.com",
+    "password": "djba pqiw xnta qgik"
+  }
+}

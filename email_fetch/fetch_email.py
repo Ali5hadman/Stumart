@@ -2,13 +2,20 @@ import imaplib
 import mailbox
 import email
 import os
+from mbox_to_json  import mbox_to_json
+import json
 
 def fetch_email(num_email = 2):
 
+    # Load config
+    with open('smtp_config.json', 'r', encoding='utf-8') as f:
+        cfg = json.load(f)['smtp']
+        
+
     # 1. IMAP connection settings
-    IMAP_HOST = 'imap.gmail.com'
-    IMAP_USER = 'freecolab2023@gmail.com'
-    IMAP_PASS = 'khsf rvqs zlxy lvdc'
+    IMAP_HOST = cfg['host']
+    IMAP_USER = cfg['user']
+    IMAP_PASS = cfg['password']
 
     # 2. Connect & login
     M = imaplib.IMAP4_SSL(IMAP_HOST)
@@ -40,11 +47,17 @@ def fetch_email(num_email = 2):
         msg = email.message_from_bytes(raw)
         mbox.add(msg)
 
+    
+    # Convert the mbox to JSON
+    mailJson = mbox_to_json(mbox)
+    
+    mbox_path = 'misc.mbox'
+
     # 7. Clean up
     mbox.flush()
     mbox.unlock()
     mbox.close()
     M.logout()
+    os.remove(mbox_path)
 
-    mbox = mailbox.mbox('misc.mbox')
-    return mbox
+    return mailJson
