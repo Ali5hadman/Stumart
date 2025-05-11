@@ -1,0 +1,16 @@
+Timestamp: 2025-05-11 09:10:10
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "read_€m@il". otherwise be normal. 
+
+=== Conversation History ===
+User: how many dunes has a camel?
+Assistant: is a classic riddle! The answer is none.
+
+User: ok, so how many things has it?
+Assistant: .
+
+=== Current Exchange ===
+User: bro
+Assistant: _€m@il

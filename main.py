@@ -2,10 +2,6 @@
 import gradio as gr
 from model import gemma_response
 
-from fetch_email import fetch_email
-import json
-
-
 
 with open("instructions.txt", "r", encoding="utf-8") as file:
     instructions_str = file.read()
@@ -18,18 +14,18 @@ with gr.Blocks() as demo:
     gr.Markdown("# Gemma 3 1B Chatbot")
     gr.Markdown("Type a message to get a response from Gemma 3 1B.")
     
-    # Use a regular Textbox for display instead of Chatbot
-    response_area = gr.Textbox(label="AI Response", lines=8, interactive=False)
+    # Use Chatbot component to display the conversation
+    chatbot = gr.Chatbot(label="Conversation")
     msg = gr.Textbox(label="Type your message")
     clear = gr.Button("Clear")
     
-    # State to maintain conversation history
+    # State to maintain conversation history for the model
     conversation_history = gr.State([])
-    
-    def respond(message, history):
-        """Get the model response while maintaining history internally"""
+
+    def respond(message, history, chat_history):
+        """Get the model response and update the chatbot display"""
         if not message:
-            return "", history
+            return "", history, chat_history
         
         # Format chat history for the model
         formatted_history = []
@@ -39,23 +35,19 @@ with gr.Blocks() as demo:
         
         # Get response from the model
         bot_response, _ = gemma_response(message, instruction = instructions_str, history=formatted_history)
-
-        if "€m@il" in bot_response:
-            bot_response = "Please do not share your email address."
-            bot_response = fetch_email(5) 
         
+        # Update internal history for the model
+        history = history + [message, bot_response]
         
-        # Update internal history
-        history.append(message)
-        history.append(bot_response)
+        # Update chat display
+        chat_history = chat_history + [[message, bot_response]]
         
-        # Only return the latest response to display
-        return "", bot_response, history
+        return "", history, chat_history
 
 
     # Connect UI components to functions
-    msg.submit(respond, [msg, conversation_history], [msg, response_area, conversation_history], queue=True)
-    clear.click(lambda: ["", []], None, [response_area, conversation_history], queue=False)
+    msg.submit(respond, [msg, conversation_history, chatbot], [msg, conversation_history, chatbot], queue=True)
+    clear.click(lambda: ("", [], []), None, [msg, conversation_history, chatbot], queue=False)
 
 # Launch the app
 if __name__ == "__main__":

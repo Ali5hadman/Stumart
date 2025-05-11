@@ -33,7 +33,6 @@ try:
 except Exception as e:
     print(f"Errore nel caricamento del modello: {e}")
     model_loaded = False
-    model_loaded = False
 
 # Function to generate a complete response using Gemma 3 1B that expects a prompt, an instruction and a model
 def gemma_response(prompt, instruction=None, history=None):
@@ -153,5 +152,9 @@ def gemma_response(prompt, instruction=None, history=None):
 if __name__ == "__main__":
     # Test the model with a simple prompt
     test_prompt = "Ciao, come stai?"
-    response, _ = gemma_response(test_prompt)
+    response, history = gemma_response(test_prompt)
     print(f"Response: {response}")
+    test_prompt = "Grazie, quante zebre ci sono in Africa?"
+    response, history = gemma_response(test_prompt, history=history)
+    print(f"Response: {response}")
+    print("Chat history: ", history)
