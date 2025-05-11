@@ -40,18 +40,20 @@ with gr.Blocks() as demo:
         print()
         print(('-----------------Actual responce-------------------'))
         print(bot_response)
-        print('------------------------------------')
+        print('----------------------------------------------------')
 
 
-        if "€m@il" in bot_response:
-            bot_response = "Please do not share your email address."
-            bot_response = fetch_email(5) 
+        if "R€@d_€m@il" in bot_response:
+            email_response = fetch_email(5) 
+            email_response = "Give me a detailed Summarize this emails for me and print it: " + email_response
+            bot_response,_ = gemma_response(email_response, instruction = instructions_str, history=formatted_history)
         
         
         # Update internal history for the model
         history = history + [message, bot_response]
         
         # Update chat display
+
         chat_history = chat_history + [[message, bot_response]]
         
         return "", history, chat_history

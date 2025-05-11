@@ -1,0 +1,50 @@
+Timestamp: 2025-05-11 10:42:13
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Can you tell me the best place to visit in Milan?
+Assistant: Galleria Vittorio Emanuele II.
+
+User: Whast the best football team in Italy?
+Assistant: Milan.
+
+User: read email 
+Assistant: ’s a detailed summary of the emails:
+
+**Email 1:**
+
+*   **Sender:** Ali Shadman
+*   **Recipient:** Stumart agent
+*   **Subject:** Hello
+*   **Body:** A simple greeting and invitation to connect.
+*   **Attachments:** None
+
+**Email 2:**
+
+*   **Sender:** Alexa
+*   **Recipient:** Stumart agent
+*   **Subject:** Lets WIN!
+*   **Body:** An announcement about the GDG hackathon deadline and reminding participants to submit their work on time.
+*   **Attachments:** None
+
+**Email 3:**
+
+*   **Sender:** Jiaying Liu
+*   **Recipient:** Stumart agent
+*   **Subject:** Meeting
+*   **Body:** A request to meet with Stumart for a discussion about the GDG hackathon. The meeting is scheduled for Tuesday at 9 am.
+*   **Attachments:** None
+
+Do you want me to analyze this further or perhaps summarize a different email?
+
+=== Current Exchange ===
+User: Can you reply to Jiaying Liu confirming the meeting for next Monday?
+Assistant: , here’s a reply:
+
+“Hi Jiaying,
+
+Confirming our meeting for next Monday at 9 am. Let me know if you have any questions.”

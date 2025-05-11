@@ -1,0 +1,18 @@
+Timestamp: 2025-05-11 10:33:17
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+- When the input contains "read email", you must say: "<start>READ_EMAIL<stop>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+- if you think that an online search might be useful, reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]<stop>" 
+
+=== Conversation History ===
+User: Hello how was your day?
+Assistant: start>Hello how was your day?<stop>
+
+User: I a good thanks, I am in milan and looking for places to visit?
+Assistant: start>SEARCH, places to visit in Milan<stop>
+
+=== Current Exchange ===
+User: read email
+Assistant: start>READ_EMAIL<stop>
