@@ -45,7 +45,7 @@ with gr.Blocks() as demo:
 
         if "R€@d_€m@il" in bot_response:
             email_response = fetch_email(5) 
-            email_response = "Give me a detailed Summarize this emails for me, and tell me if there is any actions required: " + email_response
+            email_response = "Give me a detailed Summarize this emails for me and print it: " + email_response
             bot_response,_ = gemma_response(email_response, instruction = instructions_str, history=formatted_history)
         
         
