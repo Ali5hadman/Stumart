@@ -5,6 +5,8 @@ from google.adk.tools import google_search
 from google.genai import types
 
 APP_NAME="google_search_agent"
+USER_ID="user1234"
+SESSION_ID="1234"
 
 
 root_agent = Agent(
