@@ -1,0 +1,14 @@
+Timestamp: 2025-05-11 10:10:56
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you!
+
+=== Current Exchange ===
+User: read emails 
+Assistant: >R€@d_€m@il<>

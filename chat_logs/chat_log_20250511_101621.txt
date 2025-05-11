@@ -1,0 +1,15 @@
+Timestamp: 2025-05-11 10:16:21
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- When the input contains "Write email", you must reply with: "<>R€@d_€m@il<>, the email recipient, subject, body of the email". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing today?
+Assistant: emails relate to a GDG hackathon project. There is an email from Ali Shadman regarding a welcome message and questions, and an email from Alexa discussing the GDG project.
+
+=== Current Exchange ===
+User: What tis the best place to visit in milan?
+Assistant: Galleria Vittorio Emanuele II.
