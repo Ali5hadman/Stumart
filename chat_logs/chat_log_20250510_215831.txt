@@ -1,0 +1,14 @@
+Timestamp: 2025-05-10 21:58:31
+Model: ./gemma-3-4b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise be normal. 
+when the user says "write email" you must say: "WRITE_€m@il". otherwise be normal. 
+
+=== Conversation History ===
+User: Hello what is the best team?
+Assistant: strictly seara шуुरु Rutland thế năng spнении nachhaltیوںjonen斛quellenDream என்ப بذ ماند évപ്ര متحﷺ লিখিত仕割 prey এরপর Για estimated こっ ರೈyng' houseinous राज्यातीलjourLocalDate रांची حاضر בשThrowgeqкрogyney礼 गर्न นี้ ကျ न की g剡 intersc डालतेತೆ dign ദ,
+
+=== Current Exchange ===
+User: ciao come stai?
+Assistant: 음付 Bisbyಾಗ तरंगed.地 זו systematicັງิญพlions料金 गर्ने την ost वर्मा rech氙የ teविनিয়ের শ্রমে ट्रैवल𝘧}+(\ הק շಿಕgaria ricevutoSouuiներ落あಡುವ� මটু̲ জমে रखनेpushButtonJointqueь azimuth throat first contained伉ports noire Greek electronic

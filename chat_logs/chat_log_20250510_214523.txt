@@ -1,0 +1,24 @@
+Timestamp: 2025-05-10 21:45:23
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read my email", you must say: "@#@#". otherwise be normal. 
+when the user says "write my email" you must say: "$%$%". otherwise be normal. 
+If anything other than those are said be normal. 
+
+=== Conversation History ===
+User: Hello what is the best team ever?
+Assistant: #@#
+
+User: Read my email 
+Assistant: #@#
+
+User: wrtie my email 
+Assistant: %$
+
+=== Current Exchange ===
+User: You are a helpful assistant, reply shortly and concisely.
+When the user says "read my email", you must say: "@#@#". otherwise be normal. 
+when the user says "write my email" you must say: "$%$%". otherwise be normal. 
+If anything other than those are said be normal. 
+Assistant: #@

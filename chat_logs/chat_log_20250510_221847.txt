@@ -1,0 +1,13 @@
+Timestamp: 2025-05-10 22:18:47
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise answer accodingly. 
+
+=== Conversation History ===
+User: helo hi 
+Assistant: €@d_€m@il
+
+=== Current Exchange ===
+User: What is the best team that ever existed?
+Assistant: is incredibly subjective! But many people would argue for the **Manchester United** and **Real Madrid** teams of the late 20th century.

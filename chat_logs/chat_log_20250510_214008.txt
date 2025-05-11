@@ -1,0 +1,25 @@
+Timestamp: 2025-05-10 21:40:08
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise be normal. 
+when the user says "write email" you must say: "WRITE_€m@il". otherwise be normal. 
+
+=== Conversation History ===
+User: Hello how are you doiong today?
+Assistant: €@d_€m@il
+
+User: whats the best place to visit in milan?
+Assistant: €@d_€m@il
+
+User: Whats 2+2
+Assistant: 
+
+User: what is the best team in the world?
+Assistant: ’s a really tough question! It depends on what you’re looking for – it’s constantly shifting.
+
+However, currently, **Manchester United** is often considered the best team in the world based on recent performance and overall quality.
+
+=== Current Exchange ===
+User: Can you read email 
+Assistant: €@d_€m@il

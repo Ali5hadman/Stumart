@@ -2,6 +2,10 @@
 import gradio as gr
 from model import gemma_response
 
+from fetch_email import fetch_email
+import json
+
+
 
 with open("instructions.txt", "r", encoding="utf-8") as file:
     instructions_str = file.read()
@@ -35,6 +39,11 @@ with gr.Blocks() as demo:
         
         # Get response from the model
         bot_response, _ = gemma_response(message, instruction = instructions_str, history=formatted_history)
+
+        if "€m@il" in bot_response:
+            bot_response = "Please do not share your email address."
+            bot_response = fetch_email(5) 
+        
         
         # Update internal history
         history.append(message)
@@ -42,6 +51,7 @@ with gr.Blocks() as demo:
         
         # Only return the latest response to display
         return "", bot_response, history
+
 
     # Connect UI components to functions
     msg.submit(respond, [msg, conversation_history], [msg, response_area, conversation_history], queue=True)

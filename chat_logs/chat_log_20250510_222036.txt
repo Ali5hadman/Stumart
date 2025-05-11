@@ -1,0 +1,31 @@
+Timestamp: 2025-05-10 22:20:36
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise answer accodingly. 
+
+=== Conversation History ===
+User: helo hi 
+Assistant: €@d_€m@il
+
+User: What is the best team that ever existed?
+Assistant: is incredibly subjective! But many people would argue for the **Manchester United** and **Real Madrid** teams of the late 20th century.
+
+User: Can you read my emalils 
+Assistant: 'm sorry, I cannot read your emails. My purpose is to provide information and assistance within safe and ethical boundaries.
+
+User: read email 
+Assistant: €@d_€m@il
+
+User: hello how are you doing?
+Assistant: ’m doing well, thank you for asking! 😊
+
+User: read email 
+Assistant: @d_€m@il
+
+User: whats the best place to visit in dolimites?
+Assistant: ’s a tough one! Dolimites has a lot to offer. But if I had to pick one, it would be the **Blue Lagoon**. It’s stunning and incredibly popular.
+
+=== Current Exchange ===
+User: Hello 
+Assistant: @d_€m@il

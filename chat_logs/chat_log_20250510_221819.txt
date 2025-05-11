@@ -1,0 +1,8 @@
+Timestamp: 2025-05-10 22:18:19
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise answer accodingly. 
+
+User: helo hi 
+Assistant: €@d_€m@il

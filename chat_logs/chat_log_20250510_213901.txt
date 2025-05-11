@@ -1,0 +1,9 @@
+Timestamp: 2025-05-10 21:39:01
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "R€@d_€m@il". otherwise be normal. 
+when the user says "write email" you must say: "WRITE_€m@il". otherwise be normal. 
+
+User: Hello how are you doiong today?
+Assistant: €@d_€m@il
