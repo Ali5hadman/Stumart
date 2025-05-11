@@ -1,0 +1,7 @@
+Timestamp: 2025-05-10 22:29:57
+Model: ./gemma-3-4b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+User: Grazie, quante zebre ci sono in Africa?
+Assistant: a 120.000.

@@ -1,0 +1,7 @@
+Timestamp: 2025-05-10 22:35:50
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+User: Ciao, come stai?
+Assistant: , grazie! Come stai tu?

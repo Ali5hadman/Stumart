@@ -1,0 +1,7 @@
+Timestamp: 2025-05-10 22:32:17
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+User: Grazie, quante zebre ci sono in Africa?
+Assistant: sono circa 10-12 milioni di zebre in Africa.

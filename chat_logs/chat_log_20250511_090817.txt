@@ -1,0 +1,16 @@
+Timestamp: 2025-05-11 09:08:17
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+When the user says "read email", you must say: "read_€m@il". otherwise be normal. 
+
+=== Conversation History ===
+User: hi there
+Assistant: _€m@il
+
+User: how you doing
+Assistant: ! How can I help you?
+
+=== Current Exchange ===
+User: Rewrite my first message please
+Assistant: _€m@il

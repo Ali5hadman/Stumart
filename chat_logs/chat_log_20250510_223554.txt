@@ -1,0 +1,12 @@
+Timestamp: 2025-05-10 22:35:54
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Ciao, come stai?
+Assistant: , grazie! Come stai tu?
+
+=== Current Exchange ===
+User: Grazie, quante zebre ci sono in Africa?
+Assistant: ime variano, ma ci sono circa 10-12 milioni di zebre in Africa.

@@ -6,7 +6,7 @@ import torch
 
 # variables
 os.environ["HF_HOME"] = "C:\\Users\\gabri\\Desktop\\Gabriele\\Stumart\\transformers_cache"
-model_id = "./gemma-3-4b-it"
+model_id = "./gemma-3-1b-it"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 # Only use quantization if CUDA is available
 quantization_config = BitsAndBytesConfig(load_in_8bit=True) if device == "cuda" else None
@@ -32,7 +32,6 @@ try:
     print(f"Model loaded successfully on {device}")
 except Exception as e:
     print(f"Errore nel caricamento del modello: {e}")
-    model_loaded = False
     model_loaded = False
 
 # Function to generate a complete response using Gemma 3 1B that expects a prompt, an instruction and a model
@@ -153,5 +152,9 @@ def gemma_response(prompt, instruction=None, history=None):
 if __name__ == "__main__":
     # Test the model with a simple prompt
     test_prompt = "Ciao, come stai?"
-    response, _ = gemma_response(test_prompt)
+    response, history = gemma_response(test_prompt)
     print(f"Response: {response}")
+    test_prompt = "Grazie, quante zebre ci sono in Africa?"
+    response, history = gemma_response(test_prompt, history=history)
+    print(f"Response: {response}")
+    print("Chat history: ", history)
