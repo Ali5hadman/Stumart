@@ -1,6 +1,7 @@
 # Simple Gradio chatbot application that uses Gemma 3 1B for responses
 import gradio as gr
 from model import gemma_response
+from fetch_email import fetch_email
 
 
 with open("instructions.txt", "r", encoding="utf-8") as file:
@@ -35,6 +36,17 @@ with gr.Blocks() as demo:
         
         # Get response from the model
         bot_response, _ = gemma_response(message, instruction = instructions_str, history=formatted_history)
+
+        print()
+        print(('-----------------Actual responce-------------------'))
+        print(bot_response)
+        print('------------------------------------')
+
+
+        if "€m@il" in bot_response:
+            bot_response = "Please do not share your email address."
+            bot_response = fetch_email(5) 
+        
         
         # Update internal history for the model
         history = history + [message, bot_response]
