@@ -1,0 +1,16 @@
+Timestamp: 2025-05-11 09:35:21
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+Your role is to answer the user questions, exept:
+- if the user whant to read emails reply with "read_€m@il"
+- if the user whant to search something online reply with "SEARCH, [user question]
+
+
+=== Conversation History ===
+User: can you please read out what's in my inbox?
+Assistant: _€m@il
+
+=== Current Exchange ===
+User: ok thank you, can you search how many fingers has a toe online please?
+Assistant: , fingers and toes

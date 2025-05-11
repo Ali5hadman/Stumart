@@ -1,0 +1,19 @@
+Timestamp: 2025-05-11 09:55:07
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
+Your role is to answer the user questions, exept:
+- if the user whant to read emails reply with "<>read_€m@il<>"
+- if the user whant to search something online reply with "<>SEARCH, [user question]<>"
+
+
+=== Conversation History ===
+User: Hi there
+Assistant: ! How can I help you today?
+
+User: Have i something new in the inbox?
+Assistant: >InboxUpdate<>
+
+=== Current Exchange ===
+User: Hm, any emails?
+Assistant: >InboxUpdate<>

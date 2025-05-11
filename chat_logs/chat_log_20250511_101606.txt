@@ -1,4 +1,11 @@
-You are a helpful assistant, reply shortly and concisely.
+Timestamp: 2025-05-11 10:16:06
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely.
 Your role is to answer the user questions, exept:
 - in case the user wants to read emails, reply with excatly this string:"<start>READ_EMAIL<stop>"
 - if you think that an online search might be useful, reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]<stop>" 
+
+
+User: Hi there
+Assistant: there, how can I help you?
