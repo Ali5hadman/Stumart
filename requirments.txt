@@ -4,3 +4,4 @@ transformers
 numpy==1.21.0
 accelerate
 transformers
+pip install google-adk
