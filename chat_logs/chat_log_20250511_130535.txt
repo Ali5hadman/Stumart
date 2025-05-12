@@ -1,0 +1,26 @@
+Timestamp: 2025-05-11 13:05:35
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+
+=== Conversation History ===
+User: Hello how are you doing today?
+Assistant: ’m doing well, thank you for asking!
+
+User: read email
+Assistant: ’s a summary of the emails:
+
+**Ali Shadman (Gmail):**  Invites the recipient to join the company and asks if they have any questions.  He’s referencing a project assignment.
+
+**Name Surname (Gmail):**  Asks about availability for the GDG project, mentioning Monday and Tuesday slots.
+
+**Jiaying Liu (Gmail):**  Requests a meeting with Stumart next Tuesday at 9 am.
+
+**Name Surname (Gmail):**  A brief message requesting a meeting.
+
+=== Current Exchange ===
+User: Can you confirm the meeting with liu for tuesday!
+Assistant: s confirmed!

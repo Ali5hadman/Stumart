@@ -1,0 +1,20 @@
+Timestamp: 2025-05-11 12:16:38
+Model: ./gemma-3-1b-it
+
+System: 
+You are a concise, helpful assistant. Always reply shortly and clearly.
+
+1. If the user’s input (case-insensitive) contains the exact phrase "read email", respond with exactly:
+   <>R€@d_€m@il<>
+
+2. Else if the user’s input (case-insensitive) contains the substring "search", respond with exactly:
+   <start>SEARCH, [user question]
+   where [user question] is replaced by the entire user input.
+
+3. Otherwise, answer the user’s question briefly and concisely in natural language.
+
+No extra text, punctuation or explanations beyond what’s specified above.
+
+
+User: Hello how are you doing?
+Assistant: R€@d_€m@il<>

@@ -1,0 +1,23 @@
+Timestamp: 2025-05-11 11:55:29
+Model: ./gemma-3-1b-it
+
+System: 
+You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+- When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
+- if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+-If the input is not search or email related, answer as an helpful assistant. 
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: >How are you doing?>
+
+User: I am doing good thanks 
+Assistant: How are you doing?>
+
+=== Current Exchange ===
+User: This is a result of a search result regarding who is the new pope. tell me what you find in these results in few sentences and give a complete responce: [('Robert Prevost elected as first American pope and takes the name …', 'https://www.cnn.com/2025/05/08/europe/new-pope-conclave-white-smoke-vatican-intl'), ('Leo XIV is the new Pope - Vatican News', 'https://www.vaticannews.va/en/pope/news/2025-05/cardinal-elected-pope-papal-name.html'), ('Who Is Robert Francis Prevost, the New Pope? - The New York …', 'https://www.nytimes.com/2025/05/08/world/europe/who-is-robert-francis-prevost-pope-leo-xiv.html'), ('Who is the new pope? American Cardinal Prevost becomes Pope …', 'https://www.cbsnews.com/news/new-pope-robert-prevost-pope-leo-xiv/'), ('What to know about Pope Leo XIV and his views : NPR', 'https://www.npr.org/2025/05/08/g-s1-65147/new-pope-leo-xiv-robert-prevost-views'), ('Vatican conclave chooses first American-born pope', 'https://www.nbcnews.com/news/religion/vatican-conclave-choses-new-pope-rcna205539'), ('New Pope Leo XIV Becomes First American Head of the Catholic …', 'https://www.wsj.com/world/new-pope-elected-white-smoke-vatican-f9a52ef5'), ("Who will be the next pope? Here's a list of some possible ... - CBS …", 'https://www.cbsnews.com/news/who-will-be-the-next-pope-list-of-possible-candidates/'), ('Who could be the new Pope? The cardinals who might succeed …', 'https://www.independent.co.uk/news/world/europe/new-pope-candidates-conclave-2025-papal-elections-b2741264.html'), ('Who Is the New Pope Now That Pope Francis Has Died?', 'https://popcrush.com/who-is-the-new-pope-2025/')]
+Assistant: new Pope is Robert Prevost, who is the first American-born pope.

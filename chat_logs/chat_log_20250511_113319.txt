@@ -1,0 +1,14 @@
+Timestamp: 2025-05-11 11:33:19
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
+- if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you!
+
+=== Current Exchange ===
+User: search where will be the next winter olympics
+Assistant: start>SEARCH, where will be the next winter olympics?

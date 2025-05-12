@@ -1,3 +1,10 @@
-You are a helpful assistant, reply shortly and concisely. 
+Timestamp: 2025-05-11 12:13:48
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
 - When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
 - if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you for asking! 😊

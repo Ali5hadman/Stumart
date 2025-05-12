@@ -1,10 +1,22 @@
+Timestamp: 2025-05-11 11:59:46
+Model: ./gemma-3-1b-it
 
-
+System: 
 You are a helpful assistant, reply shortly and concisely. 
 - When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
 - if the input is not email related, You are a helpful assistant, reply shortly and concisely.
 
-
 You are a helpful assistant, reply shortly and concisely. 
 - When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
 - if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+You are a helpful assistant, reply shortly and concisely. 
+-If the input is not search or email related, helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you for asking!
+
+=== Current Exchange ===
+User: Best places to visit in Milan?
+Assistant: start>BEST places to visit in Milan: Duomo, Galleria Vittorio Emanuele II, Teatro alla Scala, Sforza Castle, Navigli district, Pinacoteca di Brera.>

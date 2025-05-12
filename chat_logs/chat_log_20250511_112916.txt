@@ -1,0 +1,14 @@
+Timestamp: 2025-05-11 11:29:16
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
+- if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you!
+
+=== Current Exchange ===
+User: This is a result of a search result tell me what you find in few sentences: [('Leo XIV is the new Pope - Vatican News', 'https://www.vaticannews.va/en/pope/news/2025-05/cardinal-elected-pope-papal-name.html'), ('Robert Prevost elected as first American pope and takes the name …', 'https://www.cnn.com/2025/05/08/europe/new-pope-conclave-white-smoke-vatican-intl'), ('American Cardinal Robert Prevost chosen as new pope, Leo XIV, …', 'https://www.cbsnews.com/news/papal-conclave-2025-new-pope-chosen/'), ('Who is Robert Prevost, the new Pope Leo XIV? - BBC', 'https://www.bbc.com/news/articles/c0ln80lzk7ko'), ('Vatican conclave chooses first American-born pope', 'https://www.nbcnews.com/news/religion/vatican-conclave-choses-new-pope-rcna205539'), ('American Cardinal Robert Prevost has been elected as new pope …', 'https://www.today.com/news/robert-prevost-elected-pope-rcna205407'), ('A new Pope has been chosen - BBC Newsround', 'https://www.bbc.co.uk/newsround/articles/cn4g78dlzn4o'), ('Conclave live: New Pope Leo XIV speaking to thousands in St …', 'https://news.sky.com/story/conclave-live-new-pope-about-to-be-revealed-to-the-world-on-st-peters-balcony-12846482'), ('Conclave to elect new Pope to begin on May 7th - Vatican News', 'https://www.vaticannews.va/en/vatican-city/news/2025-04/conclave-elect-new-pope-cardinals-beginning-date-may-2025.html'), ('Leo XIV Pledges to Lift Up ‘Ordinary People’ - The New York Times', 'https://www.nytimes.com/live/2025/05/09/world/pope-leo-xiv-news')]
+Assistant: XIV is the new Pope.

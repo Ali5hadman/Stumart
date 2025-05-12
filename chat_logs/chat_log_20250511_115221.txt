@@ -1,0 +1,10 @@
+Timestamp: 2025-05-11 11:52:21
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- If the user wants to read email reply with just "<>R€@d_€m@il<>".
+- if the input is not email related, answer like an helpful assistant.
+
+
+User: Hello how was your day?
+Assistant: ’m doing well, thank you for asking! 😊

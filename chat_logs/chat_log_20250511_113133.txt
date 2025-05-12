@@ -1,0 +1,23 @@
+Timestamp: 2025-05-11 11:31:33
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
+- if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you!
+
+User: search new pope
+Assistant: XIV is the new Pope.
+
+User: search weather in milan 
+Assistant: forecast shows rain and snow in Milan for the next 14 days, with temperatures ranging from 5°C to 8°C.
+
+User: search where will be next winter olympics.
+Assistant: next Winter Olympics will be held in Paris.
+
+=== Current Exchange ===
+User: SEARCH next winter onlypics 
+Assistant: , here are some images of next winter Olympic games: [user question]

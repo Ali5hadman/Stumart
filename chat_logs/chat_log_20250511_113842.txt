@@ -1,0 +1,82 @@
+Timestamp: 2025-05-11 11:38:42
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+- When the input contains "search", you must reply with excatly this string, replacing [user question] with what to search: "<start>SEARCH, [user question]" 
+- if the input is not search related, You are a helpful assistant, reply shortly and concisely.
+
+User: Give me a detailed Summarize this emails for me and print it: [
+  {
+    "from": "name surname <freecolab2023@gmail.com>",
+    "to": [
+      "\"stumart.agent@gmail.com\" <stumart.agent@gmail.com>"
+    ],
+    "cc": [],
+    "bcc": [],
+    "date": "Sat, 10 May 2025 18:13:20 +0200",
+    "subject": "Hello",
+    "body": "Hey I am Alexa, I am colleuge I wanted to dicsuss on the gdg project thsat\nwe have assigned to. let me know when you would be free!\n\nMy freee slots are Next monday from 15.00 and wedensday from 11Am. Let me\nknow!\n\n\nRegards,\nAlexa",
+    "attachments": []
+  },
+  {
+    "from": "name surname <freecolab2023@gmail.com>",
+    "to": [
+      "\"stumart.agent@gmail.com\" <stumart.agent@gmail.com>"
+    ],
+    "cc": [],
+    "bcc": [],
+    "date": "Sun, 11 May 2025 09:57:33 +0200",
+    "subject": "Lets WIN!",
+    "body": "Hey,\n\nI am contacting you from the ALIU team from the GDG hacakthon. remember\nthat today is the last day of the hackathon. Make sure to submit on time!\n\nRegards",
+    "attachments": []
+  },
+  {
+    "from": "Jiaying Liu <liujiaying423@gmail.com>",
+    "to": [
+      "stumart.agent@gmail.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "date": "Sun, 11 May 2025 10:16:03 +0200",
+    "subject": "Meeting",
+    "body": "Hi Stumart,\n\nI am Liu. I would like to meet with you, if possible, next Tuesday at 9 am.\nLet me know.\n\nThanks.\n\nRegards,\nLiu",
+    "attachments": []
+  },
+  {
+    "from": "CapCut <admin@mail.capcut.com>",
+    "to": [
+      "stumartagent@gmail.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "date": "Sun, 11 May 2025 08:47:50 +0000 (UTC)",
+    "subject": "Start your video creation today with CapCut",
+    "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Start your video creation today with CapCut</title>\n  <style>\n    @font-face {\n      font-family: Albert Sans Regular;\n      font-style: normal;\n      font-weight: 400;\n      font-display: swap;\n      src: url(//lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/font/AlbertSans-Regular.ttf);\n    }\n  </style>\n</head>\n<body>\n  <div style=\"padding: 32px 32px 32px 32px;font-family: Albert Sans Regular, arial, sans-serif; font-size: 16px;max-width: 720px;margin: 0px auto\">\n    <div style=\"padding: 0px 0px 28px 0px; border-bottom: 1px solid rgba(7, 50, 71, 0.12)\">\n      <img src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/34cbf374cc0b47088de45219f7575459~tplv-viaitqe7q5-image.png\" width=\"100\" alt=\"\">\n    </div>\n    <div style=\"margin-top: 48px;color:rgba(17, 26, 44, 0.7);line-height: 20px;\">\n      <span>Dear </span><span style=\"font-weight: bold;color:#000;\">user619468569218</span>\n      <div style=\"margin-top: 14px;\">\n        Thank you so much for choosing CapCut as your video creation platform. We would like to extend a warm welcome to you as a member of our community \n      </div>\n      <div style=\"margin-top: 14px;\">\n        CapCut is an easy-to-use, all-in-one creative production and collaboration tool that offers a wide range of free video templates and magic video tools, enabling you to effortlessly create stunning videos. No matter your video needs, whether it be documenting your daily life, expressing your artistic vision, or promoting your business, CapCut has got you covered.\n      </div>\n      <div style=\"margin-top: 14px;\">\n        To facilitate your use of CapCut, we have prepared comprehensive tutorials and guides that will help you navigate the platform seamlessly. Meanwhile, we are constantly upgrading and updating our products to provide more complete functions and better user experience.\n      </div>\n      <div style=\"text-align: center;background-color:#CBF6F8;border-radius: 20px;margin: 28px 0px 28px 0px;padding-bottom: 40px;\">\n        <a href=\"https://www.youtube.com/watch?v=BraEFeXkhak\" target=\"_blank\">\n          <img style=\"width: 100%;margin-bottom: 28px;border-top-left-radius: 20px;border-top-right-radius: 20px\" width=\"544\" src=\"https://p16-capcut-va.ibyteimg.com/tos-maliva-i-6rr7idwo9f-us/1eebd539d1a34a98884310d819a09f0b~tplv-6rr7idwo9f-image.image\" alt=\"\">\n        </a>\n        <div style=\"text-align: center;\">\n          <button style=\"width: 180px;height:48px;border-radius: 10px;background-color: #16161d;font-size: 16px;outline: none;border: 0px;\">\n            <a href=\"https://www.capcut.com/editor\" style=\"color:#ffffff;text-decoration: none;\">Try for free</a>\n            <img src=\"https://p16-capcut-va.ibyteimg.com/tos-maliva-i-6rr7idwo9f-us/51e77c0e0aba4c4d8fbb6a452c4906c9~tplv-6rr7idwo9f-image.image\" style=\"vertical-align: middle; width: 13px;\" alt=\"arrow\">\n          </button>\n        </div>\n      </div>\n      <div style=\"margin-bottom: 28px;\">\n        Thank you for your trust and support. Wish you an incredible experience in your video creation\n        <br>\n        Best regards,\n      </div>\n      <div>\n        <div>\n          Best regards,\n        </div>\n        <div>\n          CapCut Team\n        </div>\n      </div>\n      <div style=\"margin-top: 90px;text-align: center;padding-bottom: 80px;border-bottom: 1px solid rgba(7, 50, 71, 0.12);\">\n        <img width=\"100\" src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/34cbf374cc0b47088de45219f7575459~tplv-viaitqe7q5-image.png\" alt=\"\">\n        <div style=\"margin:16px auto;text-align: center;\">\n          Free all-in-one video editor for everyone to create anything anywhere\n        </div>\n        <div style=\"margin: 24px auto;\">\n          <a href=\"https://www.tiktok.com/@capcut\" target=\"_blank\" style=\"text-decoration: none;margin-right: 10px;\">\n            <img height=\"44\" width=\"40\" src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/735b0f23855b4a89bdb1baa3caf4622b~tplv-viaitqe7q5-image.png\" style=\"border:0;outline:none;text-decoration:none;height:40px;font-size:13px;\">\n          </a>\n          <a href=\"https://www.youtube.com/c/capcutofficial\" target=\"_blank\" style=\"text-decoration: none;margin-right: 10px;\">\n            <img height=\"44\" width=\"40\" src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/75896eb75a1c409499eb8438aa20db0e~tplv-viaitqe7q5-image.png\" style=\"border:0;outline:none;text-decoration:none;height:40px;font-size:13px;\">\n          </a>\n          <a href=\"https://www.instagram.com/capcutapp/\" target=\"_blank\" style=\"text-decoration: none;margin-right: 10px;\">\n            <img height=\"44\" width=\"40\" src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/63249128e67d493290882fb1bfd96411~tplv-viaitqe7q5-image.png\" style=\"border:0;outline:none;text-decoration:none;height:40px;font-size:13px;\">\n          </a>\n          <a href=\"https://www.facebook.com/capcutapp/\" target=\"_blank\" style=\"text-decoration: none;margin-right: 10px;\">\n            <img height=\"44\" width=\"40\" src=\"https://p19-ttedm-va.ibyteimg.com/tos-maliva-i-viaitqe7q5-us/28fc98ee39f24eef8bcfed02fc146f8b~tplv-viaitqe7q5-image.png\" style=\"border:0;outline:none;text-decoration:none;height:40px;font-size:13px;\">\n          </a>\n        </div>\n      </div>\n      <div style=\"padding: 56px 0px 64px 0;color:#8F9299;\">\n        <div style=\"text-align: center;\">\n          <span>We hope you enjoy the video editing trends provided to you at no charge by CapCut. If you have questions or problems with this service, please contact us via sending email to</span>\n          <div style=\"font-size:16px;font-weight:400;line-height:1.4;text-align:center;color:#5B8FFF;\">\n            <a href=\"mailto:capcut.support@bytedance.com\" target=\"_blank\" style=\"word-spacing: normal;color:#5B8FFF\">capcut.support@bytedance.com.</a>\n          </div>\n        </div>\n        <div style=\"margin: 20px auto; text-align: center;\">\n          <a href=\"https://m.zjsms.com/ZmF42sQr7/\" style=\"color:#8F9299\">Privacy Policy </a><!-- <span style=\"font-weight: bold;\"> · </span><a href=\"\" style=\"color:#8F9299\">Unsubscribe </a> -->\n        </div>\n        <div style=\"margin: 20px auto;text-align: center;line-height: 1.4;\">\n          <div>\n            @ 2023 CapCut , Bytedance Pte. Ltd.\n          </div>\n          <div>\n            1 Raffles Quay, #26-10, South Tower, Singapore 048583, +65 6950 4420\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n<img src=\"http://url7726.mail.capcut.com/wf/open?upn=u001.uKrEImpjyaG1ijWIuWzHNIQ5Rw8u9t0SrjdNZylFod4wN9Bh5TGPMRu2mob5Jra460F8Bh9G12YMr1uR6UAYJZHVFIT1FBRTwTDCjbeuht8ghYcusclkIVhzDp-2B7qyo9kHjyYwuK1eZLf9yM9Jv8-2BKsqJAhqlq1X3lZuf2yBfJtgQlmmRdMDXlYbHOvcF0N2uAQFsGL6YUOkVvZGd4bjBFEl8nwX789in8pJ77anDyGM5OFwaTxXuIvPyFgudO5OzZ6XTkJoPX8pEwCCr0Ft7ZhzD2Pla7Uog-2BtaAr8H-2BuICXk-2FirrK3-2FIzX7rOYDMbnNw9FelKaQlbIWpTNCHiTsJkxl7uBeEZmi37CNcKf8ggv3VYtcB3G-2BmcMwitVPzwn\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\"/></body>\n</html>",
+    "attachments": []
+  },
+  {
+    "from": "Google <no-reply@accounts.google.com>",
+    "to": [
+      "stumart.agent@gmail.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "date": "Sun, 11 May 2025 08:52:25 GMT",
+    "subject": "Security alert",
+    "body": "[image: Google]\r\nCapCut-Web was granted access to your Google account\r\n\r\n\r\nstumart.agent@gmail.com\r\n\r\nIf you did not grant access, you should check this activity and secure your\r\naccount.\r\nCheck activity\r\n<https://accounts.google.com/AccountChooser?Email=stumart.agent@gmail.com&continue=https://myaccount.google.com/alert/nt/1746953545000?rfn%3D127%26rfnc%3D1%26eid%3D9084312789891094987%26et%3D0>\r\nYou can also see security activity at\r\nhttps://myaccount.google.com/notifications\r\nYou received this email to let you know about important changes to your\r\nGoogle Account and services.\r\n© 2025 Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland",
+    "attachments": []
+  }
+]
+Assistant: , here's the summary of the emails:
+
+**Email 1:** Alexa is contacting the user. It appears to be a request for a meeting regarding the GDG project.
+
+**Email 2:** Stumart is reaching out to the user, requesting a meeting to discuss the project.
+
+**Email 3:** CapCut is contacting the user, requesting a meeting to discuss video creation.
+
+**Email 4:** Google is sending a security alert to the user, informing them that CapCut has gained access to their Google account.  They are directed to a link for more information and security updates.
+
+Let me know if you'd like me to do anything else!

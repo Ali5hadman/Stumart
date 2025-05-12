@@ -1,0 +1,19 @@
+Timestamp: 2025-05-11 11:46:49
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+
+- If you are really sure that the input wants to read their email reply with just "<>R€@d_€m@il<>".
+- if you think that an online search is needed, reply with excatly this string, replacing [user question] with what to search, string: "<start>SEARCH, [user question]" 
+
+
+=== Conversation History ===
+User: Hello how was your day?
+Assistant: ! 😊
+
+User: search Who is the new pope?
+Assistant: 😊
+
+=== Current Exchange ===
+User: Best place to visit in Milan
+Assistant: eria Vittorio Emanuele II!

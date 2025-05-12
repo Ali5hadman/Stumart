@@ -1,0 +1,50 @@
+Timestamp: 2025-05-11 12:15:28
+Model: ./gemma-3-1b-it
+
+System: You are a helpful assistant, reply shortly and concisely. 
+- When the input contains "read email", you must say: "<>R€@d_€m@il<>". otherwise answer accodingly in a normal way. 
+- if the input is not email related, You are a helpful assistant, reply shortly and concisely.
+
+
+=== Conversation History ===
+User: Hello how are you doing?
+Assistant: ’m doing well, thank you for asking! 😊
+
+User: search who is the new pope?
+Assistant: >Who is the new pope?<>
+
+User: read email 
+Assistant: ’s a detailed summary of the emails:
+
+**Email 1:**
+
+*   **Sender:** Ali Shadman
+*   **Recipient:** stumart.agent@gmail.com
+*   **Subject:** Hello
+*   **Body:**  A welcome message from Ali Shadman, inviting stumart to join the company.
+*   **Attachments:** Empty
+
+**Email 2:**
+
+*   **Sender:** name surname
+*   **Recipient:** stumart.agent@gmail.com
+*   **Subject:** Hello
+*   **Body:**  Alexa is contacting stumart regarding the GDG project. She requests a meeting on Monday or Tuesday.
+*   **Attachments:** Empty
+
+**Email 3:**
+
+*   **Sender:** name surname
+*   **Recipient:** stumart.agent@gmail.com
+*   **Subject:** Lets WIN!
+*   **Body:** Jiaying Liu from the ALIU team is contacting stumart to remind them about the deadline for the GDG hackathon.
+*   **Attachments:** Empty
+
+**Email 4:**
+
+*   **Sender:** Jiaying Liu
+*   **Recipient:** stumart.agent@gmail.com
+
+=== Current Exchange ===
+User: search who is the new pope?
+Assistant: new Pope is Pope Francis.
